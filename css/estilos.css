@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	background:#FFFFFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+
+header, .main, footer {
+	width:90%;
+	max-width:1100px;
+	margin:0px auto;
+}
+
+header .sitename {
+	background:#FF9900;
+	color:#fff;
+	clear:both;
+	padding:15px 15px;
+	text-align:Left;
+	border-radius: 10px 10px 0px 0px;
+}
+
+header nav {
+	overflow:hidden;
+	background-image:url(../imagenes/menu_fondo_normal.png)
+}
+
+header nav ul {
+	list-style:none;
+}
+
+header nav ul li {
+	float:left;
+}
+
+header nav ul li a {
+	padding:15px 20px;
+	display:block;
+	color:#999;
+	text-decoration:none;
+}
+
+header nav ul li a:hover {
+	background:#75acec;
+	background-image:url(../imagenes/menu_fondo_hover.png)
+}
+
+header .path {
+	background:#E6E6E6;
+	color:#666;
+	clear:both;
+	padding:2px 5px;
+	text-align:Left;
+	border: 1px solid White;
+	box-shadow: inset 1px 1px 1px rgba(255,255,255,.7), inset -1px -1px 1px rgba(0,0,0,.1), 0px 0px 5px 0px #aaaaaa;
+	text-shadow: 1px 1px 1px rgba(255,255,255,.9);  /* Sombra del texto */
+}
+
+.main .articles {
+	width:100%;
+	margin-right:0%;
+	float:left;
+	box-shadow: inset 1px 1px 1px rgba(255,255,255,.7), inset -1px -1px 1px rgba(0,0,0,.1), 0px 0px 5px 0px #aaaaaa;
+}
+
+.main .articles article {
+	padding:20px;
+	background:#fff;
+}
+
+aside {
+	width:30%;
+	background:#ff8000;
+	float:left;
+	padding:20px;
+	box-sizing:border-box;
+}
+
+footer {
+	background:#E6E6E6;
+	color:#666;
+	clear:both;
+	padding:10px 0px;
+	text-align:center;
+	box-shadow: inset 1px 1px 1px rgba(255,255,255,.7), inset -1px -1px 1px rgba(0,0,0,.1), 0px 0px 5px 0px #aaaaaa;
+	text-shadow: 1px 1px 1px rgba(255,255,255,.9);  /* Sombra del texto */
+}
+
