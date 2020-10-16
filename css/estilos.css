@@ -18,6 +18,22 @@ header, .main, footer {
 	margin:0px auto;
 }
 
+img.opaca:hover {
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.logoredunivjal {
+	margin: 0px 10px;
+	float: left;
+}
+
+.logosomosp12 {
+	max-height: 62px;
+	margin:10px;
+	float:right;
+}
+
 header .sitename {
 	background:#FF9900;
 	color:#fff;
@@ -25,6 +41,16 @@ header .sitename {
 	padding:15px 15px;
 	text-align:Left;
 	border-radius: 10px 10px 0px 0px;
+}
+
+header .sitename a:link {
+	text-decoration:none;
+	font-weight: bold;
+	color:FloralWhite;
+}
+
+header .sitename a:hover {
+	color:LightBlue;
 }
 
 header nav {
@@ -60,7 +86,7 @@ header .path {
 	text-align:Left;
 	border: 1px solid White;
 	box-shadow: inset 1px 1px 1px rgba(255,255,255,.7), inset -1px -1px 1px rgba(0,0,0,.1), 0px 0px 5px 0px #aaaaaa;
-	text-shadow: 1px 1px 1px rgba(255,255,255,.9);  /* Sombra del texto */
+	text-shadow: 1px 1px 1px rgba(255,255,255,.9);
 }
 
 .main .articles {
@@ -90,6 +116,6 @@ footer {
 	padding:10px 0px;
 	text-align:center;
 	box-shadow: inset 1px 1px 1px rgba(255,255,255,.7), inset -1px -1px 1px rgba(0,0,0,.1), 0px 0px 5px 0px #aaaaaa;
-	text-shadow: 1px 1px 1px rgba(255,255,255,.9);  /* Sombra del texto */
+	text-shadow: 1px 1px 1px rgba(255,255,255,.9);
 }
 
